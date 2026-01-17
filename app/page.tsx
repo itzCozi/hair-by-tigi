@@ -28,12 +28,14 @@ export default function Home() {
             >
               View Services
             </Link>
-            <Link
-              href="/contact"
+            <a
+              href="https://www.vagaro.com/hairbytigi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex h-12 items-center justify-center rounded-full border border-white bg-transparent px-8 text-sm font-medium text-white transition-colors hover:bg-white/20 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950"
             >
               Book Appointment <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

@@ -97,16 +97,16 @@ export default function ServicesPage() {
                 <ul className="space-y-6 mb-6 grow">
                   {category.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="border-b border-zinc-50 pb-4 last:border-0 last:pb-0">
-                      <div className="flex items-start justify-between gap-4">
+                      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4">
                         <span className="font-medium text-zinc-900">{item.name}</span>
                         <span className="shrink-0 text-sm text-zinc-500">{item.price}</span>
                       </div>
-                      <p className="mt-2 text-sm text-zinc-500 leading-relaxed">{item.description}</p>
+                      <p className="mt-3 text-sm text-zinc-500 leading-relaxed">{item.description}</p>
                     </li>
                   ))}
                 </ul>
                 <a 
-                  href="https://www.solasalonstudios.com/salon-professional/tigi-tadesse" 
+                  href="https://www.vagaro.com/hairbytigi" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="mt-auto block w-full rounded-lg bg-amber-600 px-4 py-3 text-center text-sm font-medium text-white transition-colors hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"

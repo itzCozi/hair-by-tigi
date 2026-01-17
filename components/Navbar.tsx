@@ -16,7 +16,7 @@ export default function Navbar() {
           </Link>
         </div>
         <a
-          href="https://www.solasalonstudios.com/salon-professional/tigi-tadesse?utm_medium=organic&utm_source=gmb"
+          href="https://www.vagaro.com/hairbytigi"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full bg-black px-4 py-2 text-sm font-medium text-white hover:bg-zinc-800 transition-colors"
