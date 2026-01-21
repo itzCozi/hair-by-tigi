@@ -1,21 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDFBF7;
+  --foreground: #4A3728;
+  --cream: #FDFBF7;
+  --dark-brown: #4A3728;
+  --light-brown: #A1887F;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-cream: var(--cream);
+  --color-dark-brown: var(--dark-brown);
+  --color-light-brown: var(--light-brown);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FDFBF7; /* Force cream background even in dark mode for now as requested */
+    --foreground: #4A3728;
   }
 }
 
