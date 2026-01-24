@@ -16,10 +16,10 @@ export default function Home() {
         
         <div className="relative z-20 flex h-full flex-col items-center justify-center px-4 text-center text-white">
           <h1 className="mb-6 text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
-            Style, Shine, Confidence
+            Love Your Natural Hair
           </h1>
-          <p className="mb-8 max-w-[600px] text-lg text-cream sm:text-xl md:text-2xl">
-            Welcome to your hair salon, where style meets natural beauty, and every visit promises an uplifting transformation.
+          <p className="mb-8 max-w-[600px] text-cream sm:text-xl md:text-2xl">
+            Charlotte&apos;s destination for healthy hair care, silk presses, and custom color for every texture.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link
@@ -54,10 +54,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center">
               <h2 className="mb-6 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-dark-brown">
-                Bliss Forever Start
+                Silk Press & Straightening
               </h2>
               <p className="mb-8 text-lg text-light-brown">
-                Discover the secret to silky smooth, sleek hair with our professional straightening service, leaving you with effortlessly elegant locks that shine with sophistication.
+                Achieve a sleek, polished look without compromising your curl pattern. Our thermal straightening techniques focus on heat protection and moisture retention, giving you versatility with zero damage.
               </p>
               <Link
                 href="/services"
@@ -71,10 +71,10 @@ export default function Home() {
           <div className="mt-24 grid gap-12 md:grid-cols-2 lg:gap-24 items-center">
             <div className="flex flex-col justify-center order-2 md:order-1">
               <h2 className="mb-6 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-dark-brown">
-                Highlight Your Style
+                Custom Color & Highlights
               </h2>
               <p className="mb-8 text-lg text-light-brown">
-                Transform your look with our expert hair highlighting service, adding dimension and radiance to your locks for a vibrant, head-turning style.
+                From subtle sun-kissed dimensions to bold full-color transformations, we create custom blends that complement your skin tone and style while maintaining the integrity of your hair.
               </p>
               <ul className="mb-8 space-y-2 text-dark-brown">
                 <li className="flex items-center gap-2">
